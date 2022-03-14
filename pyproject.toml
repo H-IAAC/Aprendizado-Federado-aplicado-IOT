@@ -1,0 +1,17 @@
+[build-system]
+requires = [
+    "poetry==1.1.13",
+]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry]
+name = "Federated learning HAR"
+version = "0.1.0"
+description = "HAR federated learning using Flower"
+authors = ["Adapted from original code of Eduarda Chagas <eduarda.chagas@dcc.ufmg.br>"]
+
+[tool.poetry.dependencies]
+python = "^3.8.2"
+flwr = "^0.18.0"
+torch = "1.10.2"
+torchvision = "0.11.3"
